@@ -8,15 +8,15 @@
 #define PIN_I2C_SCL         22  // G22 -> SCL (O1, O2, U5, U8)[cite: 19]
 #define PIN_ONEWIRE         4   // G4  -> TEMP (I1, I2 DS18B20)[cite: 19]
 
-#define PIN_RELAY_1         19  // G19 -> R1 (Relay kênh 1)[cite: 19]
-#define PIN_RELAY_2         18  // G18 -> R2 (Relay kênh 2)[cite: 19]
+#define PIN_RELAY_1         18  // G18 -> R1 (Relay kênh 1)[cite: 19]
+#define PIN_RELAY_2         5   // G5 -> R2 (Relay kênh 2)[cite: 19]
 
 #define PIN_RELAY_SLOT1     PIN_RELAY_1
 #define PIN_RELAY_SLOT2     PIN_RELAY_2
 
 // Địa chỉ I2C trên bus dùng chung (G21, G22)[cite: 19]
-#define INA226_ADDR_SLOT1   0x41  // U5 (Mặc định)[cite: 18, 19]
-#define INA226_ADDR_SLOT2   0x40  // U8 (Hàn chập pad A0 trên module)[cite: 18, 19]
+#define INA226_ADDR_SLOT1   0x40  // U5 (Mặc định)[cite: 18, 19]
+#define INA226_ADDR_SLOT2   0x41  // U8 (Hàn chập pad A0 trên module)[cite: 18, 19]
 
 #define OLED_ADDR_SLOT1     0x3C  // O1 (Mặc định)[cite: 19]
 #define OLED_ADDR_SLOT2     0x3D  // O2 (Chuyển điện trở địa chỉ sang 0x7A/0x3D)[cite: 19]
